@@ -1,0 +1,4 @@
+   
+mongoose.connect('mongodb+srv://rjjpretty:Be9eace2b2@ticket.2celz0i.mongodb.net/ticket')
+    .then(() => {console.log('connected to MongoDB...')})
+    .catch(err => {console.log('could not connect to MongoDB...', err)});
